@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Data
+datasets/
+data/raw/
+data/processed/
+*.csv
+*.json
+*.xml
+*.txt
+!requirements.txt
+
+# Models & Weights
+models/*.pt
+models/*.pth
+models/*.h5
+models/*.onnx
+models/*.tflite
+models/*.pb
+checkpoints/
+runs/
+weights/
+
+# Logs
+logs/
+*.log
+wandb/
+tensorboard/
+
+# Images & Videos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# MLflow
+mlruns/
+
+# Annotations (keep structure, ignore content)
+annotations/*.xml
+annotations/*.json
+annotations/*.txt
+
+# Keep directory structure
+!datasets/.gitkeep
+!models/.gitkeep
+!logs/.gitkeep
